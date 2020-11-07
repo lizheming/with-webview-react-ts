@@ -4,14 +4,14 @@
   "commands": [
     {
       "name": "my-command",
-      "identifier": "template.my-command-identifier",
+      "identifier": "{{ slug }}.my-command-identifier",
       "script": "./my-command.ts"
     }
   ],
   "menu": {
-    "title": "template",
+    "title": "{{ name }}",
     "items": [
-      "template.my-command-identifier"
+      "{{ slug }}.my-command-identifier"
     ]
   }
 }

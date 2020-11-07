@@ -1,5 +1,5 @@
 # build artefacts
-template.sketchplugin
+{{ slug }}.sketchplugin
 
 # npm
 node_modules

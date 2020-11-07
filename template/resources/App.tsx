@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      template
+      {{ name }}
       <div>
         <button id="button" onClick={onClick}>Get a random number</button>
       </div>

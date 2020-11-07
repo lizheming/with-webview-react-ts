@@ -3,7 +3,7 @@
 import BrowserWindow, { BrowserWindowOptions } from 'sketch-module-web-view';
 import UI from 'sketch/ui';
 
-const webviewIdentifier = 'template.webview';
+const webviewIdentifier = '{{ slug }}.webview';
 
 export default function () {
   const options:BrowserWindowOptions = {

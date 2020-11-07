@@ -1,10 +1,10 @@
-# template
+# {{ slug }}
 
 ## Installation
 
-- [Download](../../releases/latest/download/template.sketchplugin.zip) the latest release of the plugin
+- [Download](../../releases/latest/download/{{ slug }}.sketchplugin.zip) the latest release of the plugin
 - Un-zip
-- Double-click on template.sketchplugin
+- Double-click on {{ slug }}.sketchplugin
 
 ## Development Guide
 

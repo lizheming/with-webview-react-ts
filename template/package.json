@@ -1,13 +1,13 @@
 {
-  "name": "template",
+  "name": "{{ slug }}",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "template",
+    "name": "{{ name }}",
     "manifest": "src/manifest.json",
-    "main": "template.sketchplugin",
+    "main": "{{ slug }}.sketchplugin",
     "assets": [
       "assets/**/*"
     ],
