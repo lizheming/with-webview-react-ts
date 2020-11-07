@@ -5,13 +5,7 @@
     {
       "name": "my-command",
       "identifier": "template.my-command-identifier",
-      "script": "./my-command.js",
-      "handlers": {
-        "run": "onRun",
-        "actions": {
-          "Shutdown": "onShutdown"
-        }
-      }
+      "script": "./my-command.ts"
     }
   ],
   "menu": {
