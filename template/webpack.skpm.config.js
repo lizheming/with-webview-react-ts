@@ -18,11 +18,12 @@ module.exports = function (config, entry) {
         {
           loader: "html-loader",
           options: {
-            attrs: [
-              'img:src',
-              'link:href'
-            ],
-            interpolate: true,
+            attributes: {
+              list: [
+                { tag: 'img', attribute: 'src', type: 'src' },
+                { tag: 'link', attribute: 'href', type: 'src' }
+              ]
+            }
           },
         },
       ]
@@ -30,7 +31,7 @@ module.exports = function (config, entry) {
     {
       test: /\.(css)$/,
       use: [{
-          loader: "@skpm/extract-loader",
+          loader: "style-loader",
         },
         {
           loader: "css-loader",

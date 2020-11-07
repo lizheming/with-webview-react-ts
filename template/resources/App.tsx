@@ -1,5 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
+import './style.css';
+
 declare global {
   interface Window {
     setRandomNumber: (num: number) => void
